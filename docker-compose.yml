@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  sleep:
+    image: sleep:latest
+
+  pull:
+    image: pull:latest
+    ports:
+      - 8080:8080
