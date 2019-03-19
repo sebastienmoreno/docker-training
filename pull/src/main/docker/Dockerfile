@@ -1,7 +1,7 @@
 FROM openjdk:8-jre-alpine
 
 # Copy the built jar into the Docker image
-COPY pull-0.0.1-SNAPSHOT.jar service.jar
+COPY pull-0.0.1.jar service.jar
 
 # Add execution rule on app.jar
 RUN chmod +x service.jar
